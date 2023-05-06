@@ -84,7 +84,3 @@ También medimos la desviación estándar de los tiempos de latencia:
 ![](/imgs_estresamiento/juego-std.png)
 
 Notamos que también aumenta con el número de hilos. Esto es porque entre más hilos jugadores se intentan conectar con el servidor, más se satura y más se tarda en procesar los requests.
-
-
-
-
