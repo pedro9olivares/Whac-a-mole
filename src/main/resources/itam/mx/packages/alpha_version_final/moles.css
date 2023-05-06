@@ -1,0 +1,26 @@
+.check-box>.box {
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    /*-fx-padding: 2em 2em 3em 3em;*/
+    -fx-padding: 3em 3em 3em 3em;
+}
+
+.check-box>.box>.mark {
+    -fx-background-image: url("hole_small.png");
+    -fx-background-position: center;
+    -fx-background-repeat: stretch;
+    -fx-shape: none;
+    /*-fx-padding: 2em 2em 3em 3em;*/
+    -fx-padding: 3em 3em 3em 3em;
+
+}
+
+.check-box:selected>.box>.mark{
+    -fx-background-color: transparent;
+    -fx-background-image: url("mole_small.png");
+    /*-fx-padding: 2em 2em 3em 3em;*/
+    -fx-padding: 3em 3em 3em 3em;
+
+
+}
